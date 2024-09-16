@@ -6,3 +6,7 @@ def sigma(n):
         total = 0
         total += numbers
     return(total)
+
+def values(my_list):
+    for i in range(len(my_list)):
+        print(my_list)[i]
